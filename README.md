@@ -1,5 +1,6 @@
 # EasyShare
-
+![Initial Page](ScreenShots/Screenshot 2024-08-26 021320.png)
+![After Uploaded](ScreenShots/image.png)
 EasyShare is a web application that allows users to easily upload and share files. The application supports drag-and-drop functionality for seamless file uploads and provides a unique link for each file that can be shared with others.
 
 ## Features
