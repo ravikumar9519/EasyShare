@@ -4,7 +4,7 @@ require('dotenv').config();
 const cors = require('cors');
 const connectDB = require('./config/db');
 const path = require('path');
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.use(express.static('public'));
 app.use(express.json());
 //connecting to db
@@ -13,7 +13,7 @@ connectDB();
 
 //cors
 app.use(cors({
-  origin: 'http://127.0.0.1:5500',
+  origin: process.env.FRONTEND_URL,
   methods: ['POST']
 }));
   

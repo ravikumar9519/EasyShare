@@ -1,3 +1,6 @@
+.env
+upload/*
+!upload/.gitkeep
 node_modules
 FrontEnd
-.env
+.vscode
